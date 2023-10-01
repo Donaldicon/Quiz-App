@@ -121,7 +121,7 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
-  remainingTime = 10;
+  remainingTime = 09;
   clearInterval(countdown);
   showQuestion();
   timerDisplay();
@@ -184,7 +184,7 @@ function handleNextButton(){
   currentQuestionIndex++
   if (currentQuestionIndex < questions.length) {
     showQuestion();
-    remainingTime = 10;
+    remainingTime = 09;
     clearInterval(countdown);
     timerDisplay();
   } else {
