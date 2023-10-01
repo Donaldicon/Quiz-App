@@ -8,7 +8,7 @@ let score = 0;
 const progressBarEl = document.getElementById("progress-bar");
 const timeLeftEl = document.getElementById("time-digit");
 
-let remainingTime = 09;
+let remainingTime = 9;
 let countdown;
 
 const totalTime = remainingTime;
@@ -121,7 +121,7 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
-  remainingTime = 09;
+  remainingTime = 9;
   clearInterval(countdown);
   showQuestion();
   timerDisplay();
@@ -184,7 +184,7 @@ function handleNextButton(){
   currentQuestionIndex++
   if (currentQuestionIndex < questions.length) {
     showQuestion();
-    remainingTime = 09;
+    remainingTime = 9;
     clearInterval(countdown);
     timerDisplay();
   } else {
