@@ -1,0 +1,159 @@
+body{
+  background-color: rgb(64, 139, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 229, 229);
+  margin-top: 15vh;
+  width: 310px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.rules{
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.asteris{
+  color: red;
+}
+
+.time{
+  color: blue;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#exit-quiz{
+  padding: 10px 15px;
+  margin-right: 7px;
+  font-size: 14px;
+  background-color: rgb(241, 229, 229);
+  color: rgb(64, 139, 224);
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#continue{
+  padding: 10px 15px;
+  margin-left: 7px;
+  font-size: 14px;
+  background-color: rgb(64, 139, 224);
+  border: 1px solid;
+  color: rgb(241, 229, 229);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#exit-quiz:hover,
+#continue:hover{
+  opacity: 0.8;
+}
+
+
+/* test */
+
+#ready{
+  position: absolute;
+  top: 55px;
+  background-color: white;
+  width: 285px;
+  height: 220px;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 15px;
+  display: none;
+}
+
+.test{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yes-no{
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#yes,
+.no{
+  padding: 7px 10px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.no{
+  background-color: red;
+}
+
+#yes{
+  background-color: green;
+}
+
+#yes:hover,
+.no:hover{
+  opacity: 0.6;
+}
+
+#good-luck{
+  position: absolute;
+  top: 55px;
+  background-color: white;
+  width: 285px;
+  height: 220px;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 15px;
+  display: none;
+}
+
+.okay{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ok{
+  font-size: 18px;
+  color: rgb(64, 139, 224);
+  margin-top: 70px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
