@@ -45,7 +45,7 @@ const questions = [
     ]
   },
   {
-    question: "Who won the first ever world cup?",
+    question: "Who won the first ever FIFA men's world cup?",
     answers: [
       {text : "Argentina", correct: false},
       {text : "Uruguay", correct: true},
