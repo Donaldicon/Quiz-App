@@ -8,7 +8,7 @@ let score = 0;
 const progressBarEl = document.getElementById("progress-bar");
 const timeLeftEl = document.getElementById("time-digit");
 
-let remainingTime = 10;
+let remainingTime = 09;
 let countdown;
 
 const totalTime = remainingTime;
